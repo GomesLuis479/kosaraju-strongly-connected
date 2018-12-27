@@ -3,11 +3,11 @@
 
 from collections import defaultdict
 
-g = defaultdict(list)			 # Stores graph
-g_reversed = defaultdict(list)	 # Graph with reversed edges
-connected = defaultdict(list)	 # Contains lists of strongly connected nodes(after execution of the algorithm)
-explored = defaultdict(int)		 # Flags for exploring graph
-reverse_finish = {}				 # Mapping of finishing time of first pass to nodes
+g = defaultdict(list)			# Stores graph
+g_reversed = defaultdict(list)	 	# Graph with reversed edges
+connected = defaultdict(list)	 	# Contains lists of strongly connected nodes(after execution of the algorithm)
+explored = defaultdict(int)		# Flags for exploring graph
+reverse_finish = {}			# Mapping of finishing time of first pass to nodes
 
 t = 0		# Number of nodes processed
 s = 0		# Current source vertex
